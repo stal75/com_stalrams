@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_STALRAM_RAZDEL">
+		<message>COM_STALRAM_RAZDEL</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request">
+			<field
+				name="task"
+				type="list"
+				label="Задача"
+				description="Выберите задачу для пользователя"
+				default="1"
+			>
+				<option value="equipment">Дешифратор :)</option>
+				<option value="build">Шифратор :(</option>
+				<option value="genpass">Генератор паролей</option>
+				<option value="translit">Транслитерация</option>
+				<option value="ldap">LDAP</option>
+				<option value="zabbix">zabbix</option>
+				<option value="sprav">Справочник</option>
+   				<option value="printers">Принтеры</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>
